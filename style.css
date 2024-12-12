@@ -1,0 +1,50 @@
+body{
+    background: linear-gradient(to right, #ee779e, #fda489);
+
+    font-family: "Sour Gummy", sans-serif;
+
+
+
+}
+
+
+
+
+
+.labels{
+font-size:25px;
+
+}
+
+
+canvas{
+background-color: rgb(240, 216, 184);
+border-style:double;
+border-color:#fda489;
+border-width:11px;
+margin-top:260px;
+animation-name: shading;
+animation-duration:4s;
+animation-iteration-count: infinite;
+/* The above code mentions the amount of time the code will run for. */
+
+}
+
+@keyframes shading{
+0%{box-shadow: 20px 20px 40px 20px rgba(234, 97, 138, 0.934);}
+25%{box-shadow: 20px 20px 40px 20px rgb(93, 104, 225) ;}
+50%{box-shadow: 20px 20px 40px 20px rgb(251, 208, 64);}
+75%{box-shadow: 20px 20px 40px 20px rgba(97, 239, 97, 0.809);}
+100%{box-shadow: 20px 20px 40px 20px plum;}
+
+}
+
+
+#show_sketch{
+
+float:right;
+
+
+
+}
+
